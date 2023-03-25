@@ -1,0 +1,13 @@
+h1{
+    font-size: 3rem;
+    color: red;
+}
+.main_section{
+    height: 70vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

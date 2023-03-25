@@ -1,0 +1,21 @@
+{% extends 'main/format.html' %}
+{% load static %}
+{% block title %} Home {% endblock title %}
+
+{% block link %} 
+<link rel="stylesheet" href="{% static 'contact/form.css'%}"/>
+{% endblock link %}
+
+{% block body %}
+    <div class="contact_section">
+        <div class="form">
+            <Form action="" method="POST" >{% csrf_token %}
+                {{contact_input}}
+                <br/>
+                <input class="btn" type="submit" value="Submit">
+                <a class="btn" href="{% url 'contact' %}">Show Contact</a>
+            </Form>
+           
+        </div>
+    </div>
+{% endblock body %}

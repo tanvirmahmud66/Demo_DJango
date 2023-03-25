@@ -1,0 +1,13 @@
+{% extends 'main/format.html' %}
+{% load static %}
+{% block title %} Home {% endblock title %}
+
+{% block link %} 
+<link rel="stylesheet" href="{% static 'main/main.css' %}"/>
+{% endblock link %}
+
+{% block body %} 
+    <div class="main_section">
+        <h1>{{name}}</h1>
+    </div>
+{% endblock body %}

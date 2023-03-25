@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Set table font and border */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Set table cell padding and border */
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Style table header cells */
+  th {
+    background-color: #696363;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Alternate row background color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
